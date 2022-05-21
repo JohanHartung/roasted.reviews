@@ -1,0 +1,17 @@
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\bin\Debug\net6.0\roasted.reviews.exe
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\bin\Debug\net6.0\roasted.reviews.deps.json
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\bin\Debug\net6.0\roasted.reviews.runtimeconfig.json
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\bin\Debug\net6.0\roasted.reviews.dll
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\bin\Debug\net6.0\roasted.reviews.pdb
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\bin\Debug\net6.0\Xamarin.Essentials.dll
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.csproj.AssemblyReference.cache
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.AssemblyInfoInputs.cache
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.AssemblyInfo.cs
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.csproj.CoreCompileInputs.cache
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.csproj.CopyComplete
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.dll
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\refint\roasted.reviews.dll
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.pdb
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\roasted.reviews.genruntimeconfig.cache
+C:\Users\johan\Documents\GitHub\roasted.reviews\roasted.reviews\obj\Debug\net6.0\ref\roasted.reviews.dll

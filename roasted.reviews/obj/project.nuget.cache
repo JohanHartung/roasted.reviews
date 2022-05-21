@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "f2vrczjfNK8tjLNe/zxp2REfPwQOoWroQJbUgDfvUl6sSkuz0UXvEkrflTh9Cr+60H9VISFf0fhV73TvYzkZTg==",
+  "dgSpecHash": "z/blVZBB4wn3s8eT/nDccQS5fe27tMeUEGmNGZ5woXco8OUzpwNRVj4bmFalUteC2eQvt6oIzDxusDjefFlMMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\johan\\Documents\\GitHub\\roasted.reviews\\roasted.reviews\\roasted.reviews.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\johan\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\johan\\.nuget\\packages\\xamarin.essentials\\1.7.3\\xamarin.essentials.1.7.3.nupkg.sha512"
+  ],
   "logs": []
 }
