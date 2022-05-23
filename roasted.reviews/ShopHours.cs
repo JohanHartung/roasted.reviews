@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using static roasted.reviews.ShopData;
+using static roasted.reviews.Shop;
 
 namespace roasted.reviews
 {
