@@ -1,2 +1,2 @@
-#roasted.reviews
-##A coffee network
+# roasted.reviews
+## an open source coffee network
