@@ -13,7 +13,7 @@ namespace roasted.reviews
         private (string address, string email, string phoneNum) contact;
         private (string overall, string[] category) results;
         private (string name, string price, float rating)[] menu;
-        private (string name, string id, int level, bool active)[,] awards;
+        private Review reviews;
         private bool[,] hours = new bool[7, 48];
 
         public string Name()
