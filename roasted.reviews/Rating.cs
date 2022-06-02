@@ -10,7 +10,7 @@ namespace roasted.reviews
     {
         private static string[] type = { "Roast", "Brew", "Service", "Ambience", "Variety", "Classics", "Specialties", "Overall" };
         private float[] rating = new float[type.Length];
-        private Dictionary<string, float>[] ratings = new Dictionary<string, float>[type.Length];
+        private Dictionary<string, float>[] userRatings = new Dictionary<string, float>[type.Length];
 
         public void Update()
         {
@@ -20,7 +20,7 @@ namespace roasted.reviews
         //constructors
         public void NewRating(string userId, float rtg, int i)
         {
-            ratings[i].Add(userId, rtg);
+            userRatings[i].Add(userId, rtg);
         }
         public float GetRating(int i)
         {
@@ -33,7 +33,7 @@ namespace roasted.reviews
             //calulate rating categories
             for(int i = 0; i < rating.Length; i++)
             {
-                rating[i] = ratings[i].Values.Average();
+                rating[i] = userRatings[i].Values.Average();
             }
             //calculate overall rating
             for (int i = 0; i < rating.Length-1; i++)
