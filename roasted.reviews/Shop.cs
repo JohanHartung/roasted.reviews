@@ -11,9 +11,8 @@ namespace roasted.reviews
     {
         private (string name, string id, Location geo) data;
         private (string address, string email, string phoneNum) contact;
-        private (string overall, string[] category) results;
         private (string name, string price, float rating)[] menu;
-        private Review reviews;
+        private Rating reviews;
         private bool[,] hours = new bool[7, 48];
 
         public string Name()

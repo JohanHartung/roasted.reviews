@@ -81,11 +81,11 @@ namespace roasted.reviews
         {
             for (int i = 0; i < 48; i++)
             {
-                hours[day, i] = false;
+                //hours[day, i] = false;
             }
             for (int i = open; i < close; i++)
             {
-                hours[day,i] = true;
+                //hours[day,i] = true;
             }
         }
         public static string decode(int day)
@@ -94,14 +94,14 @@ namespace roasted.reviews
             int end = 0;
             for (int i = 0; i < 48; i++)
             {
-                if (start == 0 && hours[day, i]) 
-                {
-                    start = i;
-                }
-                if (start != 0 && end == 0 && !hours[day, i]) 
-                {
-                    end = i-1;
-                }
+                //if (start == 0 && hours[day, i]) 
+                //{
+                //    start = i;
+                //}
+                //if (start != 0 && end == 0 && !hours[day, i]) 
+                //{
+                //    end = i-1;
+                //}
             }
 
             return $"{dayNames[day]}, {hourNames[start]}-{hourNames[end]}";

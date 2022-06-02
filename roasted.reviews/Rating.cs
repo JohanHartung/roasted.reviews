@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace roasted.reviews
 {
-    internal class Review
+    internal class Rating
     {
-        private static string[] type = { "Roast quality", "Brew quality", "Service quality", "Ambience", "Variety", "Classics", "Specials" };
+        private static string[] type = { "Roast", "Brew", "Service", "Ambience", "Variety", "Classics", "Specialties", "Overall" };
         private float[] rating = new float[type.Length];
         private Dictionary<string, float>[] ratings = new Dictionary<string, float>[type.Length];
 
@@ -18,7 +18,7 @@ namespace roasted.reviews
         }
 
         //constructors
-        public void NewReview(string userId, float rtg, int i)
+        public void NewRating(string userId, float rtg, int i)
         {
             ratings[i].Add(userId, rtg);
         }
@@ -26,10 +26,17 @@ namespace roasted.reviews
         //internal stuff
         private void CalcRatings()
         {
+            //calulate rating categories
             for(int i = 0; i < rating.Length; i++)
             {
                 rating[i] = ratings[i].Values.Average();
             }
+            //calculate overall rating
+            for (int i = 0; i < rating.Length-1; i++)
+            {
+                rating[rating.Length - 1] += rating[i];
+            }
+            rating[rating.Length - 1] /= rating.Length - 1;
         }
     }
 }
