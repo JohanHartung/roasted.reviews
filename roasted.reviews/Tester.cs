@@ -9,7 +9,7 @@ namespace roasted.reviews
 {
     public class Tester
     {
-        Shop cafe1 = new Shop();
+        public Shop cafe1 = new Shop();
         public void Main()
         {
              //ssgs
