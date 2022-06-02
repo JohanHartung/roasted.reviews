@@ -22,6 +22,10 @@ namespace roasted.reviews
         {
             ratings[i].Add(userId, rtg);
         }
+        public float GetRating(int i)
+        {
+            return rating[i];
+        }
 
         //internal stuff
         private void CalcRatings()
