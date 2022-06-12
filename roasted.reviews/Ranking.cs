@@ -9,6 +9,6 @@ namespace roasted.reviews
     internal class Ranking
     {
         Dictionary<Shop, float>[] ranking = new Dictionary<Shop, float>[8];
-        //wow test
+        
     }
 }
