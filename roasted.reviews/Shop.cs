@@ -83,5 +83,14 @@ namespace roasted.reviews
         {
             menu[i].rating = rating;
         }
+
+        public Rating Rating()
+        {
+            return reviews;
+        }
+        public void Rating(string g)
+        {
+
+        }
     }
 }

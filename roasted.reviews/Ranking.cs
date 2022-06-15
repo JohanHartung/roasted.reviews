@@ -8,7 +8,12 @@ namespace roasted.reviews
 {
     internal class Ranking
     {
-        Dictionary<Shop, float>[] ranking = new Dictionary<Shop, float>[8];
+        Dictionary<Shop, float[]> ranking = new Dictionary<Shop, float[]>();
+
+        public void Add(Shop shop)
+        {
+            ranking.Add(shop, shop.Rating().GetRating());
+        }
         
     }
 }

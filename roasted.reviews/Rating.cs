@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace roasted.reviews
 {
-    internal class Rating
+    public class Rating
     {
         private static string[] type = { "Roast", "Brew", "Service", "Ambience", "Variety", "Classics", "Specialties", "Overall" };
         private float[] rating = new float[type.Length];
@@ -21,6 +21,10 @@ namespace roasted.reviews
         public void NewRating(string userId, float rtg, int i)
         {
             userRatings[i].Add(userId, rtg);
+        }
+        public float[] GetRating()
+        {
+            return rating;
         }
         public float GetRating(int i)
         {
