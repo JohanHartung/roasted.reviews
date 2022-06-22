@@ -88,7 +88,7 @@ namespace roasted.reviews
         {
             return reviews;
         }
-        public void Rating(string g)
+        public void Rating(string r)
         {
 
         }
