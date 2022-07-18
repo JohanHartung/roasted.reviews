@@ -13,7 +13,6 @@ namespace roasted.reviews
         private (string address, string email, string phoneNum) contact;
         private (string name, string price, float rating)[] menu;
         private Rating reviews;
-        private bool[,] hours = new bool[7, 48];
 
         public string Name()
         {
